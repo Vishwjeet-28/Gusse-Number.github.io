@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1>Gusse The Number</h1>
+    <div class="container">
+        <div id="box1">
+            <h2>You Have To Gusse The Number Which Is
+                Hiddne Between 0 And 100
+            </h2>
+            <br><br>
+            <button id="start" onclick="startGame()"> Start Game</button>
+        </div>
+        <div id="box2">
+            <p id="life">❤️ X 7</p><br>
+            <input id="num" type="text" required><br>
+            <button onclick="checkNum()"> Gusse</button><br>
+            <p id="demo">TRY</p> <br><br>
+            <button id="ans" onclick="show()"> See answer</button>
+            <button onclick="location.reload()"> Main Menu</button>
+            
+        </div>
+    </div>
+    <script src="functionality.js"></script>
+    <footer>
+        <strong>MADE BY : VISHWJEET MEENA</strong>
+    </footer>
+</body>
+
+</html>

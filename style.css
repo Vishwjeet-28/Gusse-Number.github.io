@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+body {
+    background-color: rgb(63, 162, 169);
+}
+h1{
+    text-align: center;
+    padding: 2%;
+    color: rgb(118, 0, 114);
+    font-size: xx-large;
+}
+.container{
+    
+    position: absolute;
+    top: 30%;
+    left: 36%;
+    width: 30%;
+    text-align: center;
+}
+#box1{
+    padding: 15%;
+    margin: 1%;
+    background-color: rgb(223, 211, 56);
+}
+#box2{
+    visibility: hidden;
+    text-align: center;
+}
+input{
+    margin: 2%;
+    padding: 2%;
+    background: none; 
+    background-color: rgba(186, 234, 118, 0.522);
+    border: solid black;
+    width: 30%;
+    font-size: 17px;
+    font-style: italic;
+}
+button{
+    border-radius: 7px;
+    font-size: large;
+    outline: none;
+    padding: 2%;
+    margin: 1%;
+    cursor: pointer;
+    background-color: rgb(15, 179, 45);
+}
+
+
+#box2 #demo{
+    margin: 5%;
+    font-size: x-large;
+    font-style: normal;
+    font-weight: 200;
+}
+#box2 #life{
+    font-size: xx-large;
+}
+footer{
+    margin-top: 36%;
+    text-align: center;
+    font-size: 28px;
+    color: rgb(23, 14, 7);
+}
+.newBody{
+    background-color: rgb(182, 139, 123);
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    width: 30%;
+    font-size: xx-large;
+    text-align: center;
+}
