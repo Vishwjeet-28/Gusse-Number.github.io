@@ -59,6 +59,7 @@ button{
     font-size: xx-large;
 }
 footer{
+    position: fixed;
     margin-top: 36%;
     text-align: center;
     font-size: 28px;
